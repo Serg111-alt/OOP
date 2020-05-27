@@ -60,10 +60,10 @@ class User
     public function isValid($login, $password)
     {
         if( $this->login == $login && $this->password == $password){
-            echo "OK";
+           return "OK";
         }   
         else{
-            echo "Error";
+            return "Error";
         }
          
     }
